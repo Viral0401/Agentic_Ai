@@ -24,3 +24,46 @@ This repository contains an **Agentic AI-driven** research paper reviewing syste
 ```bash
 git clone https://github.com/yourusername/agentic-ai-reviewer.git
 cd agentic-ai-reviewer
+2️⃣ Install Dependencies
+Ensure Python 3.8+ is installed, then run:
+
+bash
+Copy
+Edit
+pip install crewai pymupdf openai
+3️⃣ Prepare Input PDFs
+Place research papers in the ICLR_2020_papers/ directory.
+
+4️⃣ Run the Review System
+bash
+Copy
+Edit
+python review_pipeline.py
+Output Format
+Each paper receives a structured review saved as:
+📄 ICLR_2020_LLM_reviews/paper_title_review.txt
+
+Example Review Format
+yaml
+Copy
+Edit
+Paper Title: Example Research Paper  
+Field: AI & Machine Learning  
+
+Review:  
+[Critically analyzes all major sections, highlights strengths, weaknesses, and areas for improvement.]  
+
+Rating: 7/10  
+Decision: Strong Accept  
+Confidence Score: 4/5  
+Contributing
+We welcome contributions! Feel free to submit PRs or open issues.
+
+License
+This project is licensed under the MIT License.
+
+sql
+Copy
+Edit
+
+Just copy and paste this into your `README.md`, and you're all set! 🚀
